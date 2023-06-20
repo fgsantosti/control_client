@@ -1,19 +1,3 @@
-![Thumbnail GitHub](./thumb.png)
-
-# Flutter: Gerenciamento de estados complexos
-
-Esse curso de Flutter vai te ensinar a: 
-
--> O que é estado e gerenciadores de estados
-
--> Como instalar e utilizar o Provider como gerenciador de estados
-
--> Formular estados seguindo o conceito de single source of truth
-
--> Como organizar models que utilizam os conceitos do `change notifier`
-
--> Criar Widgets focados em estado e passagem de dados
-
 
 ## 🔨 Projeto: Client Control
 
@@ -30,27 +14,16 @@ O projeto do curso consiste em um gerenciamento de clientes de maneira que podem
 - `ChangeNotifier`: Possibilita preparar uma model para trabalhar como única fonte da verdade.
 - `notifyListeners()`: Notifica as escutas de alterações no estado e notifica ao componente o novo estado.
 - `MultiProvider`: É responsável por prover um meio de gerenciar multiplos providers na árvore de Widgets do projeto.
-- `Redux`: Entenda os conceitos e princípios dos gerenciadores com base no Redux.
-- `BloC`: Veja como funciona a teoria dos gerenciadores que implementam o padrão BloC.
-
- 
 
 
 ## 🛠️ Abrir e rodar o projeto
 
 **Para executar este projeto você precisa:**
 
-- Ter uma IDE, que pode ser o  [Android Studio](https://developer.android.com/) instalado na sua máquina
-- Ter a [SDK do Flutter](https://docs.flutter.dev/get-started/install) na versão 3.0.0
+- Ter uma IDE, que pode ser o Android Studio ou Visual Studio Code, instalado na sua máquina.
+- Ter a [SDK do Flutter](https://docs.flutter.dev/get-started/install) na versão 3.0.0 ou acima.
 
-
-## 📚 Mais informações do curso
-
-Gostou do projeto e quer conhecer mais? Você pode [acessar o curso]() que desenvolve o projeto desde o começo!
-
-Esse curso faz parte da [formação de Flutter da Alura](https://cursos.alura.com.br/formacao-flutter)
-
-## stateful, inherited e stateless
+## 📚 Stateful, Inherited e Stateless
 
 Quando gerenciamos estados, é importante que você saiba um ponto relevante sobre os widgets stateful,inherited e stateless.
 
@@ -58,22 +31,22 @@ Três ações - a alteração do estado, a atualização dos valores no componen
 
 Para saber mais sobre as diferenças de stateful e stateless widget, recomendamos a leitura do artigo Link https://www.alura.com.br/artigos/flutter-diferenca-entre-stateless-e-statefull-widget
 
-## setState
+## 📚 setState
 
 Através da chamada do setState, o Flutter irá renderizar novamente a tela em questão que chamou o setState, de maneira que todas as alterações necessárias sejam exibidas visualmente com o estado mais atualizado.
 
-## Gerenciamento de estado de aplicativo simples
-
+## 📚  Gerenciamento de estado de aplicativo simples
+Na documentação do Flutter eles recomendam o uso do provider para iniciarmos com gerencia de estados. 
 https://docs.flutter.dev/data-and-backend/state-mgmt/simple
 
-## Provider 
+## 📚  Provider 
 
 https://pub.dev/packages/provider
 
 O provider é uma extensão tão robusta e aceita pela comunidade Flutter que há portabilidade do pacote para funcionar perfeitamente em Android, iOS, Linux, macOS, Web e Windows.
 
 
-## Utilizando o Provider
+## 🛠️ Utilizando o Provider
 
 Iniciamente iremos instalar o pacote. 
 
