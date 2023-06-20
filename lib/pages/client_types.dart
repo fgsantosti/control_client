@@ -125,7 +125,7 @@ class _ClientTypesPageState extends State<ClientTypesPage> {
                     Navigator.pop(context);
                   }),
               TextButton(
-                  child: const Text("Calcelar"),
+                  child: const Text("Cancelar"),
                   onPressed: () async {
                     selectedIcon = null;
                     Navigator.pop(context);

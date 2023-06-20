@@ -143,7 +143,7 @@ class _ClientsPageState extends State<ClientsPage> {
                     });
               }),
               TextButton(
-                  child: const Text("Calcelar"),
+                  child: const Text("Cancelar"),
                   onPressed: () {
                     Navigator.pop(context);
                   }),
