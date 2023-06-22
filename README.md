@@ -52,7 +52,8 @@ lib
 - components 
 - models
 - pages
-main.dar
+  
+main.dart
 
 Inicialmente iremos criar o arquivo components/hamburger_menu.dart
 
