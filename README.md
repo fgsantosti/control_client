@@ -223,8 +223,9 @@ class Client {
 ```
 Depois iremos criar o models/client_type.dart 
 
-import 'package:flutter/material.dart';
+
 ```python
+import 'package:flutter/material.dart';
 class ClientType {
   String name;
   IconData? icon;
