@@ -658,6 +658,25 @@ Outra parte que será alterada nesse ainda nesse arquivo é nas actions a funcao
 
 Agora iremos fazer uma classe para ficar ouvindo os typos de cliente, porem iremos ouvir as modificações fora da árvore de widegt. 
 
+Vamos criar uma função para adicionar os clientes na lista presente em client.dart, código ficará dessa forma:
+
+```python
+import '/models/client.dart';
+import 'package:flutter/material.dart';
+
+class Clients extends ChangeNotifier {
+  List<Client> clients;
+
+  Clients({required this.clients});
+
+  void add(Client client) {
+    clients.add(client);
+    notifyListeners();
+  }
+}
+```
+
+
 Vamos criar o arquivo models/types.dart e ficará dessa forma.
 
 ```python
